@@ -18,7 +18,7 @@ stages:
             
           - task: SonarQubePrepare@8
             inputs:
-              SonarQube: 'sonar_dockervm_azure'
+              SonarQube: 'todo_app'
               scannerMode: 'cli'
               configMode: 'manual'
               cliProjectKey: 'UImonolitics'
